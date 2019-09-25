@@ -1,9 +1,5 @@
-function makeLine(length) {
-    var line = "";
-    for (var j = 1; j <= length; j++) {
-      line += "* "
-    }
-    return line + "\n";
-  }
-
-  console.log(makeLine(10));
+function howManyHundreds(num){
+ howManyHundreds = (num / 100)
+ return Math.floor(howManyHundreds);
+}
+console.log(howManyHundreds(1001));
