@@ -56,3 +56,33 @@ if (temperature < -40 || temperature > 40) {
   if (!raining) {
     console.log("Leave your umbrella at home!");
   }
+
+
+
+
+
+
+
+
+
+
+Elementary School if age is below 13
+
+Secondary School if age is between 13 and 18 (both inclusive)
+
+Lighthouse Labs in all other cases.
+
+
+
+whichSchool = (age) => {
+    if(age < 13){
+        whichSchool = "Elementary School"
+    } else if (age >= 13 && age <= 18) {
+        whichSchool = "Secondary School"
+    } else {
+        whichSchool = "Lighthouse Labs"
+    }
+      return whichSchool;
+};
+    
+      whichSchool(5);
